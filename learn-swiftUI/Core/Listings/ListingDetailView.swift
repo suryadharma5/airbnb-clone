@@ -29,7 +29,8 @@ struct ListingDetailView: View {
                                 .frame(width: 32, height: 32)
                         )
                         // padding harus diberikan di label, agar button tetap clickable
-                        .padding(32)
+                        .padding(.horizontal, 32)
+                        .padding(.vertical, 55)
                 }
             }
             
