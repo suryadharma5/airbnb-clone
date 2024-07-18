@@ -171,6 +171,7 @@ struct ListingDetailView: View {
             }
             .padding()
         }
+        .toolbar(.hidden, for: .tabBar)
         .ignoresSafeArea(edges: [.top])
         
         ZStack(alignment: .bottom) {
