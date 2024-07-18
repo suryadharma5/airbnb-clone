@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1362862C47BD4000658183 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1362852C47BD4000658183 /* ProfileOptionRowView.swift */; };
+		6F18115B2C4926190099AC43 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F18115A2C4926190099AC43 /* WishlistView.swift */; };
 		6F2497C82C4647F200450E3A /* SearchAndFliterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2497C72C4647F200450E3A /* SearchAndFliterBar.swift */; };
 		6F2497CA2C464EB900450E3A /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2497C92C464EB900450E3A /* ListingDetailView.swift */; };
 		6F2497CD2C464F8200450E3A /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2497CC2C464F8200450E3A /* ListingImageCarouselView.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F1362852C47BD4000658183 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileOptionRowView.swift; path = "learn-swiftUI/Core/Explore/ProfileOptionRowView.swift"; sourceTree = SOURCE_ROOT; };
+		6F18115A2C4926190099AC43 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WishlistView.swift; path = "learn-swiftUI/Core/Wishlist/WishlistView.swift"; sourceTree = SOURCE_ROOT; };
 		6F2497C72C4647F200450E3A /* SearchAndFliterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFliterBar.swift; sourceTree = "<group>"; };
 		6F2497C92C464EB900450E3A /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		6F2497CC2C464F8200450E3A /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
@@ -229,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				6F9F61EA2C477B7100BFFF71 /* ProfileView.swift */,
+				6F1362852C47BD4000658183 /* ProfileOptionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 		6F336A252C4611AE006BF0AF /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				6F18115A2C4926190099AC43 /* WishlistView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -386,10 +392,12 @@
 			files = (
 				6F2497CD2C464F8200450E3A /* ListingImageCarouselView.swift in Sources */,
 				6F9F61EB2C477B7100BFFF71 /* ProfileView.swift in Sources */,
+				6F1362862C47BD4000658183 /* ProfileOptionRowView.swift in Sources */,
 				6F629BFC2C46C2A0008B0A05 /* DestinationSearchView.swift in Sources */,
 				6F3369F02C452C73006BF0AF /* ContentView.swift in Sources */,
 				6F336A292C461400006BF0AF /* ListingItemView.swift in Sources */,
 				6F336A272C4612C5006BF0AF /* ExploreView.swift in Sources */,
+				6F18115B2C4926190099AC43 /* WishlistView.swift in Sources */,
 				6F3369EE2C452C73006BF0AF /* Airbnb.swift in Sources */,
 				6F2497CA2C464EB900450E3A /* ListingDetailView.swift in Sources */,
 				6F2497C82C4647F200450E3A /* SearchAndFliterBar.swift in Sources */,
